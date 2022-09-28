@@ -1,0 +1,67 @@
+.header {
+  background: url('../../images/background.png');
+  background-size: 50%;
+  text-align: center;
+  min-height: 15vh;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 2px 15px #000;
+  overflow: hidden;
+}
+
+.header__title {
+  font-family: 'Foxbot';
+  font-size: 6vw;
+  color: #fff;
+  text-shadow: 3px 3px 5px #000;
+  margin: 3vh auto 2vh auto;
+}
+
+.header__title_background {
+  position: absolute;
+  width: 100vw;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: pulsate 3s ease-in-out infinite;
+}
+
+.header__title-span {
+  animation: lavanderFlow 1s linear infinite alternate;
+}
+
+@media screen and (max-width: 720px) {
+  .header__title {
+    font-size: 12vw;
+  }
+}
+
+@keyframes lavanderFlow {
+  0% {
+    color: #AB51E3;
+  }
+  50% {
+    color: #BD68EE;
+  }
+  100% {
+    color: #D283FF;
+  }
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.35;
+  }
+  100% {
+    transform: scale(2.25);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Fugaz+One&family=Rock+Salt&display=swap');
+@import url("../../vendor/normalize.css");
+
+
+@font-face {
+  font-family: 'Foxbot';
+  src: url("../../vendor/fonts/Foxbot/Foxbot.otf") format('opentype'),
+      url("../../vendor/fonts/Foxbot/Foxbot.ttf") format('truetype');
+}
+
+.App {
+  margin: 0;
+  background: url('../../images/header.png');
+  background-position: center;
+  background-size: 50%;
+  height: 100%;
+}

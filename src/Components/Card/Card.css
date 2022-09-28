@@ -1,0 +1,133 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Fugaz One", cursive;
+  margin: 2vh auto 2vh auto;
+  width: 600px;
+  height: 600px;
+  background: url("../../images/card.png");
+  background-size: contain;
+  border-radius: 40px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+
+.card__image-wrapper {
+  width: 75%;
+  height: 75%;
+}
+
+.card__image-cover {
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.5s ease-in-out;
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  z-index: 1;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__image-cover:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card__title {
+  font-size: 45px;
+  color: #fff;
+  text-shadow: 0px 0px 15px #dc97ff;
+  text-align: center;
+  margin: auto;
+  max-width: 75%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.card__desc {
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 0px 0px 15px #dc97ff;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  margin: auto;
+  max-width: 75%;
+}
+
+.card__image-cover:hover .card__title {
+  opacity: 1;
+}
+
+.card__image-cover:hover .card__desc {
+  opacity: 1;
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  margin: 0 auto 0 auto;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0);
+  transform: scale(1);
+  transition: box-shadow 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card__image:hover {
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+  transform: scale(1.05);
+}
+
+.card__links {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto 0 auto;
+}
+
+.card__link {
+  text-decoration: none;
+}
+
+.card__link-icon {
+  width: 70px;
+  height: 70px;
+}
+
+@media screen and (max-width: 720px) {
+  .card {
+    width: 90vw;
+    height: 90vw;
+  }
+
+  .card__title {
+    font-size: 10vw;
+    margin: auto 0;
+  }
+
+  .card__desc {
+    font-size: 5.5vw;
+  }
+
+  .card__image-wrapper {
+    width: 70vw;
+    height: 70vw;
+  }
+
+  .card__image-cover {
+    width: 70vw;
+    height: 70vw;
+  }
+
+  .card__link-icon {
+    width: 10vw;
+    height: 10vw;
+  }
+}

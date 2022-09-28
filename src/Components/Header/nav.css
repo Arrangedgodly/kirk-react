@@ -1,0 +1,58 @@
+.nav {
+  margin: auto;
+  width: 100%;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__icon {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 2vh;
+  transform: scale(1);
+  transition: transform .5s ease-in-out;
+  transition: filter 0s ease-in-out;
+  filter: invert(98%) sepia(67%) saturate(329%) hue-rotate(178deg) brightness(113%) contrast(100%);
+}
+
+.nav__icon:hover {
+  transform: scale(1.2);
+}
+
+.nav__icon_instagram:hover {
+  filter: invert(77%) sepia(50%) saturate(1380%) hue-rotate(327deg) brightness(107%) contrast(98%);
+}
+
+.nav__icon_itunes:hover {
+  filter: invert(42%) sepia(83%) saturate(1192%) hue-rotate(288deg) brightness(94%) contrast(96%);
+}
+
+.nav__icon_spotify:hover {
+  filter: invert(54%) sepia(90%) saturate(415%) hue-rotate(89deg) brightness(89%) contrast(91%);
+}
+
+.nav__icon_soundcloud:hover {
+  filter: invert(63%) sepia(82%) saturate(4078%) hue-rotate(358deg) brightness(99%) contrast(109%);
+}
+
+.nav__icon_twitter:hover {
+  filter: invert(62%) sepia(64%) saturate(4572%) hue-rotate(176deg) brightness(98%) contrast(93%);
+}
+
+.nav__icon_youtube:hover {
+  filter: invert(21%) sepia(95%) saturate(7463%) hue-rotate(357deg) brightness(92%) contrast(120%);
+}
+
+@media screen and (max-width: 720px) {
+  .nav__icon {
+    width: 11.11vw;
+    height: 11.11vw;
+  }
+}
