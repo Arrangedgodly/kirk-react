@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kirk-react/static/css/main.b177b412.css",
+    "main.js": "/kirk-react/static/js/main.7092fdbe.js",
+    "static/js/787.66a509a7.chunk.js": "/kirk-react/static/js/787.66a509a7.chunk.js",
+    "static/media/background.png": "/kirk-react/static/media/background.de28db33f82310f25059.png",
+    "static/media/header.png": "/kirk-react/static/media/header.8490504d1f62d6cdf704.png",
+    "static/media/card.png": "/kirk-react/static/media/card.5664c33e9aaacbf92676.png",
+    "static/media/Foxbot.ttf": "/kirk-react/static/media/Foxbot.e339dde0415130bff94a.ttf",
+    "static/media/Foxbot.otf": "/kirk-react/static/media/Foxbot.c3944907b0536231d807.otf",
+    "static/media/soundcloud.svg": "/kirk-react/static/media/soundcloud.2146c8a205438269930797d0d709cf84.svg",
+    "static/media/instagram.svg": "/kirk-react/static/media/instagram.cb9183495c3f80ca6290a311008ba0d6.svg",
+    "static/media/twitter.svg": "/kirk-react/static/media/twitter.e43ac9be18263afdc228bb1256c89015.svg",
+    "static/media/spotify.svg": "/kirk-react/static/media/spotify.262f370edc86a6b62984a5149979c002.svg",
+    "static/media/youtube.svg": "/kirk-react/static/media/youtube.8fd8d8a2ed5824d405b3f9afb66d3226.svg",
+    "index.html": "/kirk-react/index.html",
+    "main.b177b412.css.map": "/kirk-react/static/css/main.b177b412.css.map",
+    "main.7092fdbe.js.map": "/kirk-react/static/js/main.7092fdbe.js.map",
+    "787.66a509a7.chunk.js.map": "/kirk-react/static/js/787.66a509a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b177b412.css",
+    "static/js/main.7092fdbe.js"
+  ]
+}
